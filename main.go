@@ -6,15 +6,15 @@ import (
 	"strings"
 )
 
+// Books struct has a field called arr.
 type Books struct {
 	arr []string
 }
 
+// b variable constructs a books struct which contains the name of the books.
 var b = Books{
 	arr: []string{"The Giver", "Bleak House", "The Lord of The Rings: Fellowship Of The Ring", "White Fang", "Lord of The Flies", "Wiseguy"},
 }
-
-// arr slice contains the name of the books.
 
 //Search function prints the name of the book given as input to the screen.
 func search(bookName []string) string {
